@@ -1,5 +1,60 @@
 <resources>
     <string name="app_name">Yagoo Noises</string>
+    <string name="app_version">2021.8 REV-1.0</string>
+    <string name="press_vtuber">Press Yagoo!</string>
+
+
+    <string name="noise1_text">Yagoo!</string>
+    <string name="noise2_text">Eating Mike Tyson\'s ass! </string>
+    <string name="noise3_text">Motherfucker</string>
+    <string name="noise4_text">Oh no!</string>
+    <string name="noise5_text">Oh no she said it! </string>
+    <string name="noise6_text">AH!</string>
+    <string name="noise7_text">PANIK!</string>
+    <string name="noise8_text">Ara ara motherfucker</string>
+    <string name="noise9_text">Yoroshiku onegaishimasu</string>
+    <string name="noise10_text">Next meme!</string>
+    <string name="noise11_text">Hohohohoho</string>
+    <string name="noise12_text">Hai!</string>
+    <string name="noise13_text">OK</string>
+    <string name="noise14_text">Uh en</string>
+    <string name="noise15_text">Nyahallo</string>
+    <string name="noise16_text">Oh</string>
+    <string name="noise17_text">Call me Coco</string>
+    <string name="noise18_text">Sakura Miko</string>
+    <string name="noise19_text">Um</string>
+    <string name="noise20_text">Yeah x5</string>
+    <string name="noise21_text">Freedom lady</string>
+    <string name="noise22_text">Your name is freedom?</string>
+    <string name="noise23_text">Freedom Sakura Miko</string>
+    <string name="noise24_text">Morgan Freeman</string>
+    <string name="noise25_text">Together</string>
+    <string name="noise26_text">Free America together</string>
+    <string name="noise27_text">Yes!</string>
+    <string name="noise28_text">Freedom ready go?</string>
+    <string name="noise29_text">Let it go (feat. Miko)</string>
+    <string name="noise30_text">Frozen?</string>
+    <string name="noise31_text">Doko</string>
+    <string name="noise32_text">Freedom lady Doko</string>
+    <string name="noise33_text">Uhh</string>
+    <string name="noise34_text">Free x3</string>
+    <string name="noise35_text">Statue of liberty?</string>
+    <string name="noise36_text">Ohhhh!</string>
+    <string name="noise37_text">Ok ok I know the place</string>
+    <string name="noise38_text">Liberty</string>
+    <string name="noise39_text">Bibiby</string>
+    <string name="noise40_text">Pain peko</string>
+    <string name="noise41_text">Hic</string>
+    <string name="noise42_text">*Dragon laugh*</string>
+    <string name="noise43_text">Wha! What is this?</string>
+    <string name="noise44_text">This is not good x3</string>
+    <string name="noise45_text">Arigathanks minny\'all I love you all</string>
+    <string name="noise46_text">We don\'t wanna hear that shit</string>
+    <string name="noise47_text">Arigatou gozaimasu</string>
+    <string name="noise48_text">Taiwan</string>
+    <string name="noise49_text">Dadadadadadada</string>
+    <string name="noise50_text">Good Morning Motherfuckers</string>
+
 
     <!-- Activity_AlarmsList -->
     <string name="no_alarm">No alarms to show!</string>
@@ -173,7 +228,7 @@
     <string name="message_shakeDetectionTest">Shake your phone. A vibration will tell you that a shake event has
     been detected. Change the sensitivity as per your choice.</string>
     <string name="negative_shakeDetectionTest">Stop</string>
-    
+
     <!-- AlertDialog_BatteryOptimizations -->
     <string name="batteryOptim_message">Please disable battery optimizations for this app. If this app is 
         optimized, it might not be able to ring the alarm.</string>

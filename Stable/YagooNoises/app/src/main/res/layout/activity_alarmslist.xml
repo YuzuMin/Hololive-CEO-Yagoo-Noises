@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yuzumin.yagoonoises.Activity_AlarmsList"
+    tools:context="com.yuzumin.yagoonoises.alarm.Activity_AlarmsList"
     android:background="@color/colorBackgroundFragment">
 
     <androidx.appcompat.widget.Toolbar
