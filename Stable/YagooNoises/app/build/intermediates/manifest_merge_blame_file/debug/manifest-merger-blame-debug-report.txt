@@ -1,0 +1,458 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yuzumin.yagoonoises"
+4    android:installLocation="internalOnly"
+5    android:versionCode="1"
+6    android:versionName="2021.8 REV-1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:7:5-66
+12-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:7:22-63
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:8:5-68
+13-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+14-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:9:5-81
+14-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:10:5-77
+15-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:10:22-74
+16    <uses-permission android:name="android.permission.SET_ALARM" />
+16-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:11:5-68
+16-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+17-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:12:5-75
+17-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:13:5-80
+18-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:13:22-77
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:14:5-81
+19-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:14:22-78
+20
+21    <uses-feature
+21-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:16:5-18:35
+22        android:name="android.hardware.audio.output"
+22-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:17:9-53
+23        android:required="true" />
+23-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:18:9-32
+24    <uses-feature
+24-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:19:5-21:35
+25        android:name="android.hardware.sensor.accelerometer"
+25-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:20:9-61
+26        android:required="true" />
+26-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:21:9-32
+27
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:26:5-79
+28-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:26:22-76
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->[com.github.javiersantos:AppUpdater:2.7] C:\Users\exube\.gradle\caches\transforms-3\f7a3e1421de78de9cb09958b88a0df0a\transformed\jetified-AppUpdater-2.7\AndroidManifest.xml:11:5-67
+29-->[com.github.javiersantos:AppUpdater:2.7] C:\Users\exube\.gradle\caches\transforms-3\f7a3e1421de78de9cb09958b88a0df0a\transformed\jetified-AppUpdater-2.7\AndroidManifest.xml:11:22-64
+30
+31    <application
+31-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:23:5-129:19
+32        android:allowBackup="true"
+32-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:24:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.3.2] C:\Users\exube\.gradle\caches\transforms-3\19457aa8a4b02fe0e109e2d29107e4f0\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:25:9-43
+36        android:label="@string/app_name"
+36-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:26:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:27:9-54
+38        android:supportsRtl="true"
+38-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:28:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:29:9-40
+41        <provider
+41-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:38:9-41:40
+42            android:name="com.yuzumin.yagoonoises.alarm.MyWorkManagerInitializer"
+42-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:39:13-59
+43            android:authorities="com.yuzumin.yagoonoises.alarm.MyWorkManagerInitializer"
+43-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:40:13-89
+44            android:exported="false" />
+44-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:41:13-37
+45
+46        <service
+46-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:43:9-46:40
+47            android:name="com.yuzumin.yagoonoises.alarm.Service_SnoozeAlarm"
+47-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:44:13-54
+48            android:enabled="true"
+48-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:45:13-35
+49            android:exported="false" />
+49-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:46:13-37
+50        <service
+50-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:47:9-50:40
+51            android:name="com.yuzumin.yagoonoises.alarm.Service_RingAlarm"
+51-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:48:13-52
+52            android:enabled="true"
+52-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:49:13-35
+53            android:exported="false" />
+53-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:50:13-37
+54
+55        <receiver
+55-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:52:9-63:20
+56            android:name="com.yuzumin.yagoonoises.alarm.AlarmBroadcastReceiver"
+56-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:53:13-57
+57            android:enabled="true"
+57-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:54:13-35
+58            android:exported="true" >
+58-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:55:13-36
+59            <intent-filter>
+59-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:57:13-59:29
+60                <action android:name=".DELIVER_ALARM" />
+60-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:58:17-57
+60-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:58:25-54
+61            </intent-filter>
+62            <intent-filter>
+62-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:60:13-62:29
+63                <action android:name="android.intent.action.BOOT_COMPLETED" />
+63-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:61:17-79
+63-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:61:25-76
+64            </intent-filter>
+65        </receiver>
+66
+67        <activity
+67-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:65:9-75:20
+68            android:name="com.yuzumin.yagoonoises.alarm.Activity_AlarmsList"
+68-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:66:13-54
+69            android:enabled="true"
+69-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:67:13-35
+70            android:exported="true" >
+70-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:68:13-36
+71            <intent-filter>
+71-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:69:13-74:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:70:17-69
+72-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:70:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:71:17-77
+74-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:71:27-74
+75
+76                <action android:name="android.intent.action.SHOW_ALARMS" />
+76-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:72:17-76
+76-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:72:25-73
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:73:17-76
+78-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:73:27-73
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:76:9-80:71
+82            android:name="com.yuzumin.yagoonoises.alarm.Activity_AlarmDetails"
+82-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:77:13-56
+83            android:enabled="true"
+83-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:78:13-35
+84            android:exported="false"
+84-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:79:13-37
+85            android:parentActivityName="com.yuzumin.yagoonoises.alarm.Activity_AlarmsList" />
+85-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:80:13-68
+86        <activity
+86-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:81:9-91:72
+87            android:name="com.yuzumin.yagoonoises.alarm.Activity_RingAlarm"
+87-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:82:13-53
+88            android:configChanges="orientation|keyboard"
+88-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:83:13-57
+89            android:enabled="true"
+89-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:84:13-35
+90            android:excludeFromRecents="true"
+90-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:85:13-46
+91            android:exported="false"
+91-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:86:13-37
+92            android:noHistory="true"
+92-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:87:13-37
+93            android:screenOrientation="sensorPortrait"
+93-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:88:13-55
+94            android:showOnLockScreen="true"
+94-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:89:13-44
+95            android:taskAffinity=""
+95-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:90:13-36
+96            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+96-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:91:13-69
+97        <activity
+97-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:92:9-102:20
+98            android:name="com.yuzumin.yagoonoises.alarm.Activity_RingtonePicker"
+98-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:93:13-58
+99            android:enabled="true"
+99-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:94:13-35
+100            android:exported="true"
+100-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:95:13-36
+101            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+101-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:96:13-72
+102            <intent-filter>
+102-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:97:13-101:29
+103                <action android:name="android.intent.action.RINGTONE_PICKER" />
+103-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:98:17-80
+103-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:98:25-77
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:73:17-76
+105-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:73:27-73
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:103:9-107:71
+109            android:name="com.yuzumin.yagoonoises.alarm.Activity_Settings"
+109-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:104:13-52
+110            android:enabled="true"
+110-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:105:13-35
+111            android:exported="false"
+111-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:106:13-37
+112            android:parentActivityName="com.yuzumin.yagoonoises.alarm.Activity_AlarmsList" />
+112-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:107:13-68
+113
+114        <service
+114-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:109:9-113:55
+115            android:name="com.yuzumin.yagoonoises.alarm.Service_UpdateAlarm"
+115-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:110:13-54
+116            android:enabled="true"
+116-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:111:13-35
+117            android:exported="true"
+117-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:112:13-36
+118            android:permission=".PLUGIN_PERMISSION" />
+118-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:113:13-52
+119
+120        <activity
+120-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:115:9-128:20
+121            android:name="com.yuzumin.yagoonoises.alarm.Activity_IntentManager"
+121-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:116:13-57
+122            android:configChanges="uiMode|orientation|keyboard|colorMode"
+122-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:117:13-74
+123            android:enabled="true"
+123-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:118:13-35
+124            android:exported="true"
+124-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:119:13-36
+125            android:theme="@style/Theme.AppCompat.Translucent" >
+125-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:120:13-63
+126            <intent-filter>
+126-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:121:13-127:29
+127                <action android:name="android.intent.action.DISMISS_ALARM" />
+127-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:122:17-78
+127-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:122:25-75
+128                <action android:name="android.intent.action.SET_ALARM" />
+128-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:123:17-74
+128-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:123:25-71
+129                <action android:name="android.intent.action.SNOOZE_ALARM" />
+129-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:124:17-77
+129-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:124:25-74
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:73:17-76
+131-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:73:27-73
+132            </intent-filter>
+133        </activity>
+134
+135        <service
+135-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:39:9-44:35
+136            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+136-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:40:13-88
+137            android:directBootAware="false"
+137-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:41:13-44
+138            android:enabled="@bool/enable_system_alarm_service_default"
+138-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:42:13-72
+139            android:exported="false" />
+139-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:43:13-37
+140        <service
+140-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:45:9-51:35
+141            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+141-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:46:13-84
+142            android:directBootAware="false"
+142-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:47:13-44
+143            android:enabled="@bool/enable_system_job_service_default"
+143-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:48:13-70
+144            android:exported="true"
+144-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:49:13-36
+145            android:permission="android.permission.BIND_JOB_SERVICE" />
+145-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:50:13-69
+146        <service
+146-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:52:9-57:35
+147            android:name="androidx.work.impl.foreground.SystemForegroundService"
+147-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:53:13-81
+148            android:directBootAware="false"
+148-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:54:13-44
+149            android:enabled="@bool/enable_system_foreground_service_default"
+149-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:55:13-77
+150            android:exported="false" />
+150-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:56:13-37
+151
+152        <receiver
+152-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:59:9-64:35
+153            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+153-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:60:13-88
+154            android:directBootAware="false"
+154-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:61:13-44
+155            android:enabled="true"
+155-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:62:13-35
+156            android:exported="false" />
+156-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:63:13-37
+157        <receiver
+157-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:65:9-75:20
+158            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+158-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:66:13-106
+159            android:directBootAware="false"
+159-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:67:13-44
+160            android:enabled="false"
+160-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:68:13-36
+161            android:exported="false" >
+161-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:69:13-37
+162            <intent-filter>
+162-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:71:13-74:29
+163                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+163-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:72:17-87
+163-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:72:25-84
+164                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+164-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:73:17-90
+164-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:73:25-87
+165            </intent-filter>
+166        </receiver>
+167        <receiver
+167-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:76:9-86:20
+168            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+168-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:77:13-104
+169            android:directBootAware="false"
+169-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:78:13-44
+170            android:enabled="false"
+170-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:79:13-36
+171            android:exported="false" >
+171-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:80:13-37
+172            <intent-filter>
+172-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:82:13-85:29
+173                <action android:name="android.intent.action.BATTERY_OKAY" />
+173-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:83:17-77
+173-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:83:25-74
+174                <action android:name="android.intent.action.BATTERY_LOW" />
+174-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:84:17-76
+174-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:84:25-73
+175            </intent-filter>
+176        </receiver>
+177        <receiver
+177-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:87:9-97:20
+178            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+178-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:88:13-104
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:89:13-44
+180            android:enabled="false"
+180-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:90:13-36
+181            android:exported="false" >
+181-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:91:13-37
+182            <intent-filter>
+182-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:93:13-96:29
+183                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+183-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:94:17-83
+183-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:94:25-80
+184                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+184-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:95:17-82
+184-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:95:25-79
+185            </intent-filter>
+186        </receiver>
+187        <receiver
+187-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:98:9-107:20
+188            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+188-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:99:13-103
+189            android:directBootAware="false"
+189-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:100:13-44
+190            android:enabled="false"
+190-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:101:13-36
+191            android:exported="false" >
+191-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:102:13-37
+192            <intent-filter>
+192-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:104:13-106:29
+193                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+193-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:105:17-79
+193-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:105:25-76
+194            </intent-filter>
+195        </receiver>
+196        <receiver
+196-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:108:9-119:20
+197            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+197-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:109:13-88
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:110:13-44
+199            android:enabled="false"
+199-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:111:13-36
+200            android:exported="false" >
+200-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:112:13-37
+201            <intent-filter>
+201-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:114:13-118:29
+202                <action android:name="android.intent.action.BOOT_COMPLETED" />
+202-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:61:17-79
+202-->D:\GIT\VTUBER_NOISES\Hololive-CEO-Yagoo-Noises\Stable\YagooNoises\app\src\main\AndroidManifest.xml:61:25-76
+203                <action android:name="android.intent.action.TIME_SET" />
+203-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:116:17-73
+203-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:116:25-70
+204                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+204-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:117:17-81
+204-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:117:25-78
+205            </intent-filter>
+206        </receiver>
+207        <receiver
+207-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:120:9-129:20
+208            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+208-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:121:13-99
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:122:13-44
+210            android:enabled="@bool/enable_system_alarm_service_default"
+210-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:123:13-72
+211            android:exported="false" >
+211-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:124:13-37
+212            <intent-filter>
+212-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:126:13-128:29
+213                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+213-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:127:17-98
+213-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:127:25-95
+214            </intent-filter>
+215        </receiver>
+216        <receiver
+216-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:130:9-140:20
+217            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+217-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:131:13-78
+218            android:directBootAware="false"
+218-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:132:13-44
+219            android:enabled="true"
+219-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:133:13-35
+220            android:exported="true"
+220-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:134:13-36
+221            android:permission="android.permission.DUMP" >
+221-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:135:13-57
+222            <intent-filter>
+222-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:137:13-139:29
+223                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+223-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:138:17-88
+223-->[androidx.work:work-runtime:2.5.0] C:\Users\exube\.gradle\caches\transforms-3\e1ecce3a9703605d84ab38e73ffdaa62\transformed\work-runtime-2.5.0\AndroidManifest.xml:138:25-85
+224            </intent-filter>
+225        </receiver>
+226
+227        <service
+227-->[androidx.room:room-runtime:2.3.0] C:\Users\exube\.gradle\caches\transforms-3\4b1de09631ba4a5fd5b9a49bd1263ebf\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+228            android:name="androidx.room.MultiInstanceInvalidationService"
+228-->[androidx.room:room-runtime:2.3.0] C:\Users\exube\.gradle\caches\transforms-3\4b1de09631ba4a5fd5b9a49bd1263ebf\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+229            android:directBootAware="true"
+229-->[androidx.room:room-runtime:2.3.0] C:\Users\exube\.gradle\caches\transforms-3\4b1de09631ba4a5fd5b9a49bd1263ebf\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+230            android:exported="false" />
+230-->[androidx.room:room-runtime:2.3.0] C:\Users\exube\.gradle\caches\transforms-3\4b1de09631ba4a5fd5b9a49bd1263ebf\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+231
+232        <provider
+232-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\exube\.gradle\caches\transforms-3\bd3b5f8ab885715560eb1959b1513c74\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+233            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+233-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\exube\.gradle\caches\transforms-3\bd3b5f8ab885715560eb1959b1513c74\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+234            android:authorities="com.yuzumin.yagoonoises.lifecycle-process"
+234-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\exube\.gradle\caches\transforms-3\bd3b5f8ab885715560eb1959b1513c74\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+235            android:exported="false"
+235-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\exube\.gradle\caches\transforms-3\bd3b5f8ab885715560eb1959b1513c74\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+236            android:multiprocess="true" />
+236-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\exube\.gradle\caches\transforms-3\bd3b5f8ab885715560eb1959b1513c74\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+237    </application>
+238
+239</manifest>
