@@ -66,34 +66,6 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
     CardView SoundBTN20;
     CardView SoundBTN21;
     CardView SoundBTN22;
-    CardView SoundBTN23;
-    CardView SoundBTN24;
-    CardView SoundBTN25;
-    CardView SoundBTN26;
-    CardView SoundBTN27;
-    CardView SoundBTN28;
-    CardView SoundBTN29;
-    CardView SoundBTN30;
-    CardView SoundBTN31;
-    CardView SoundBTN32;
-    CardView SoundBTN33;
-    CardView SoundBTN34;
-    CardView SoundBTN35;
-    CardView SoundBTN36;
-    CardView SoundBTN37;
-    CardView SoundBTN38;
-    CardView SoundBTN39;
-    CardView SoundBTN40;
-    CardView SoundBTN41;
-    CardView SoundBTN42;
-    CardView SoundBTN43;
-    CardView SoundBTN44;
-    CardView SoundBTN45;
-    CardView SoundBTN46;
-    CardView SoundBTN47;
-    CardView SoundBTN48;
-    CardView SoundBTN49;
-    CardView SoundBTN50;
 
 
 
@@ -370,258 +342,6 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             }
         });
 
-        SoundBTN23=findViewById(R.id.sound23);
-        SoundBTN23.setVisibility(View.GONE);
-        SoundBTN23.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(25);
-            }
-        });
-
-        SoundBTN24=findViewById(R.id.sound24);
-        SoundBTN24.setVisibility(View.GONE);
-        SoundBTN24.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(26);
-            }
-        });
-
-        SoundBTN25=findViewById(R.id.sound25);
-        SoundBTN25.setVisibility(View.GONE);
-        SoundBTN25.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(27);
-            }
-        });
-
-        SoundBTN26=findViewById(R.id.sound26);
-        SoundBTN26.setVisibility(View.GONE);
-        SoundBTN26.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(28);
-            }
-        });
-
-        SoundBTN27=findViewById(R.id.sound27);
-        SoundBTN27.setVisibility(View.GONE);
-        SoundBTN27.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(29);
-            }
-        });
-
-        SoundBTN28=findViewById(R.id.sound28);
-        SoundBTN28.setVisibility(View.GONE);
-        SoundBTN28.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(30);
-            }
-        });
-
-        SoundBTN29=findViewById(R.id.sound29);
-        SoundBTN29.setVisibility(View.GONE);
-        SoundBTN29.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(31);
-            }
-        });
-
-        SoundBTN30=findViewById(R.id.sound30);
-        SoundBTN30.setVisibility(View.GONE);
-        SoundBTN30.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(32);
-            }
-        });
-
-        SoundBTN31=findViewById(R.id.sound31);
-        SoundBTN31.setVisibility(View.GONE);
-        SoundBTN31.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(33);
-            }
-        });
-
-        SoundBTN32=findViewById(R.id.sound32);
-        SoundBTN32.setVisibility(View.GONE);
-        SoundBTN32.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(34);
-            }
-        });
-
-        SoundBTN33=findViewById(R.id.sound33);
-        SoundBTN33.setVisibility(View.GONE);
-        SoundBTN33.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(35);
-            }
-        });
-
-        SoundBTN34=findViewById(R.id.sound34);
-        SoundBTN34.setVisibility(View.GONE);
-        SoundBTN34.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(36);
-            }
-        });
-
-        SoundBTN35=findViewById(R.id.sound35);
-        SoundBTN35.setVisibility(View.GONE);
-        SoundBTN35.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(37);
-            }
-        });
-
-        SoundBTN36=findViewById(R.id.sound36);
-        SoundBTN36.setVisibility(View.GONE);
-        SoundBTN36.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(38);
-            }
-        });
-
-        SoundBTN37=findViewById(R.id.sound37);
-        SoundBTN37.setVisibility(View.GONE);
-        SoundBTN37.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(39);
-            }
-        });
-
-        SoundBTN38=findViewById(R.id.sound38);
-        SoundBTN38.setVisibility(View.GONE);
-        SoundBTN38.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(40);
-            }
-        });
-
-        SoundBTN39=findViewById(R.id.sound39);
-        SoundBTN39.setVisibility(View.GONE);
-        SoundBTN39.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(41);
-            }
-        });
-
-        SoundBTN40=findViewById(R.id.sound40);
-        SoundBTN40.setVisibility(View.GONE);
-        SoundBTN40.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(42);
-            }
-        });
-
-        SoundBTN41=findViewById(R.id.sound41);
-        SoundBTN41.setVisibility(View.GONE);
-        SoundBTN41.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(43);
-            }
-        });
-
-        SoundBTN42=findViewById(R.id.sound42);
-        SoundBTN42.setVisibility(View.GONE);
-        SoundBTN42.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(44);
-            }
-        });
-
-        SoundBTN43=findViewById(R.id.sound43);
-        SoundBTN43.setVisibility(View.GONE);
-        SoundBTN43.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(45);
-            }
-        });
-
-        SoundBTN44=findViewById(R.id.sound44);
-        SoundBTN44.setVisibility(View.GONE);
-        SoundBTN44.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(46);
-            }
-        });
-
-        SoundBTN45=findViewById(R.id.sound45);
-        SoundBTN45.setVisibility(View.GONE);
-        SoundBTN45.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(47);
-            }
-        });
-
-        SoundBTN46=findViewById(R.id.sound46);
-        SoundBTN46.setVisibility(View.GONE);
-        SoundBTN46.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(48);
-            }
-        });
-
-        SoundBTN47=findViewById(R.id.sound47);
-        SoundBTN47.setVisibility(View.GONE);
-        SoundBTN47.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(49);
-            }
-        });
-
-        SoundBTN48=findViewById(R.id.sound48);
-        SoundBTN48.setVisibility(View.GONE);
-        SoundBTN48.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(50);
-            }
-        });
-
-        SoundBTN49=findViewById(R.id.sound49);
-        SoundBTN49.setVisibility(View.GONE);
-        SoundBTN49.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(51);
-            }
-        });
-
-        SoundBTN50=findViewById(R.id.sound50);
-        SoundBTN50.setVisibility(View.GONE);
-        SoundBTN50.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                playSound(52);
-            }
-        });
-
 
         isFullAuto=false;
         AppName=findViewById(R.id.FiringState);
@@ -742,7 +462,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             count.increment();
             switch (num) {
                 case 3:
-                    noise = MediaPlayer.create(this, R.raw.coconoise1);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise1);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -751,7 +471,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 4:
-                    noise = MediaPlayer.create(this, R.raw.coconoise2);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise2);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -760,61 +480,61 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 5:
-                    noise = MediaPlayer.create(this, R.raw.coconoise3);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise3);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise3_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 6:
-                    noise = MediaPlayer.create(this, R.raw.coconoise4);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise4);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise4_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 7:
-                    noise = MediaPlayer.create(this, R.raw.coconoise5);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise5);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise5_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 8:
-                    noise = MediaPlayer.create(this, R.raw.coconoise6);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise6);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise6_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 9:
-                    noise = MediaPlayer.create(this, R.raw.coconoise7);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise7);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise7_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 10:
-                    noise = MediaPlayer.create(this, R.raw.coconoise8);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise8);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise8_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 11:
-                    noise = MediaPlayer.create(this, R.raw.coconoise9);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise9);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -823,7 +543,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 12:
-                    noise = MediaPlayer.create(this, R.raw.coconoise10);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise10);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -832,61 +552,61 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 13:
-                    noise = MediaPlayer.create(this, R.raw.coconoise11);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise11);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise11_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 14:
-                    noise = MediaPlayer.create(this, R.raw.coconoise12);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise12);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise12_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 15:
-                    noise = MediaPlayer.create(this, R.raw.coconoise13);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise13);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise13_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 16:
-                    noise = MediaPlayer.create(this, R.raw.coconoise14);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise14);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise14_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 17:
-                    noise = MediaPlayer.create(this, R.raw.coconoise15);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise15);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise15_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 18:
-                    noise = MediaPlayer.create(this, R.raw.coconoise16);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise16);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise16_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 19:
-                    noise = MediaPlayer.create(this, R.raw.coconoise17);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise17);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -895,34 +615,34 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 20:
-                    noise = MediaPlayer.create(this, R.raw.coconoise18);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise18);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise18_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 21:
-                    noise = MediaPlayer.create(this, R.raw.coconoise19);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise19);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise19_text), Toast.LENGTH_SHORT).show();
                     }
-                    anim1.start();
+                    set1.start();
                     break;
                 case 22:
-                    noise = MediaPlayer.create(this, R.raw.coconoise20);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise20);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise20_text), Toast.LENGTH_SHORT).show();
                     }
-                    set2.start();
+                    set1.start();
                     break;
                 case 23:
-                    noise = MediaPlayer.create(this, R.raw.coconoise21);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise21);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
@@ -931,263 +651,11 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
                     set1.start();
                     break;
                 case 24:
-                    noise = MediaPlayer.create(this, R.raw.coconoise22);
+                    noise = MediaPlayer.create(this, R.raw.yagoonoise22);
                     noise.setOnCompletionListener(listener);
                     noise.start();
                     if (switch1) {
                         Toast.makeText(this, getString(R.string.noise22_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 25:
-                    noise = MediaPlayer.create(this, R.raw.coconoise23);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise23_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 26:
-                    noise = MediaPlayer.create(this, R.raw.coconoise24);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise24_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 27:
-                    noise = MediaPlayer.create(this, R.raw.coconoise25);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise25_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 28:
-                    noise = MediaPlayer.create(this, R.raw.coconoise26);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise26_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 29:
-                    noise = MediaPlayer.create(this, R.raw.coconoise27);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise27_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 30:
-                    noise = MediaPlayer.create(this, R.raw.coconoise28);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise28_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 31:
-                    noise = MediaPlayer.create(this, R.raw.coconoise29);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise29_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set2.start();
-                    break;
-                case 32:
-                    noise = MediaPlayer.create(this, R.raw.coconoise30);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise30_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 33:
-                    noise = MediaPlayer.create(this, R.raw.coconoise31);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise31_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 34:
-                    noise = MediaPlayer.create(this, R.raw.coconoise32);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise32_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 35:
-                    noise = MediaPlayer.create(this, R.raw.coconoise33);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise33_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 36:
-                    noise = MediaPlayer.create(this, R.raw.coconoise34);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise34_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 37:
-                    noise = MediaPlayer.create(this, R.raw.coconoise35);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise35_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 38:
-                    noise = MediaPlayer.create(this, R.raw.coconoise36);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise36_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set2.start();
-                    break;
-                case 39:
-                    noise = MediaPlayer.create(this, R.raw.coconoise37);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise37_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 40:
-                    noise = MediaPlayer.create(this, R.raw.coconoise38);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise38_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 41:
-                    noise = MediaPlayer.create(this, R.raw.coconoise39);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise39_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 42:
-                    noise = MediaPlayer.create(this, R.raw.coconoise40);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise40_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 43:
-                    noise = MediaPlayer.create(this, R.raw.coconoise41);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise41_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 44:
-                    noise = MediaPlayer.create(this, R.raw.coconoise42);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise42_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set2.start();
-                    break;
-                case 45:
-                    noise = MediaPlayer.create(this, R.raw.coconoise43);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise43_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 46:
-                    noise = MediaPlayer.create(this, R.raw.coconoise44);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise44_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 47:
-                    noise = MediaPlayer.create(this, R.raw.coconoise45);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise45_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 48:
-                    noise = MediaPlayer.create(this, R.raw.coconoise46);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise46_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set1.start();
-                    break;
-                case 49:
-                    noise = MediaPlayer.create(this, R.raw.coconoise47);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise47_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set2.start();
-                    break;
-                case 50:
-                    noise = MediaPlayer.create(this, R.raw.coconoise48);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise48_text), Toast.LENGTH_SHORT).show();
-                    }
-                    anim1.start();
-                    break;
-                case 51:
-                    noise = MediaPlayer.create(this, R.raw.coconoise49);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise49_text), Toast.LENGTH_SHORT).show();
-                    }
-                    set2.start();
-                    break;
-                case 52:
-                    noise = MediaPlayer.create(this, R.raw.coconoise50);
-                    noise.setOnCompletionListener(listener);
-                    noise.start();
-                    if (switch1) {
-                        Toast.makeText(this, getString(R.string.noise50_text), Toast.LENGTH_SHORT).show();
                     }
                     set1.start();
                     break;
@@ -1426,231 +894,6 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }else{
             SoundBTN22.setVisibility(View.GONE);
         }
-
-        SavedSettings =getSharedPreferences("save25", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value25",false)) {
-            listofsounds.add(25);
-            SoundBTN23.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN23.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save26", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value26",false)) {
-            listofsounds.add(26);
-            SoundBTN24.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN24.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save27", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value27",false)) {
-            listofsounds.add(27);
-            SoundBTN25.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN25.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save28", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value28",false)) {
-            listofsounds.add(28);
-            SoundBTN26.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN26.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save29", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value29",false)) {
-            listofsounds.add(29);
-            SoundBTN27.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN27.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save30", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value30",false)) {
-            listofsounds.add(30);
-            SoundBTN28.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN28.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save31", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value31",false)) {
-            listofsounds.add(31);
-            SoundBTN29.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN29.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save32", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value32",false)) {
-            listofsounds.add(32);
-            SoundBTN30.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN30.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save33", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value33",false)) {
-            listofsounds.add(33);
-            SoundBTN31.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN31.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save34", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value34",false)) {
-            listofsounds.add(34);
-            SoundBTN32.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN32.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save35", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value35",false)) {
-            listofsounds.add(35);
-            SoundBTN33.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN33.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save36", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value36",false)) {
-            listofsounds.add(36);
-            SoundBTN34.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN34.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save37", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value37",false)) {
-            listofsounds.add(37);
-            SoundBTN35.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN35.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save38", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value38",false)) {
-            listofsounds.add(38);
-            SoundBTN36.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN36.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save39", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value39",false)) {
-            listofsounds.add(39);
-            SoundBTN37.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN37.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save40", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value40",false)) {
-            listofsounds.add(40);
-            SoundBTN38.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN38.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save41", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value41",false)) {
-            listofsounds.add(41);
-            SoundBTN39.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN39.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save42", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value42",false)) {
-            listofsounds.add(42);
-            SoundBTN40.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN40.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save43", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value43",false)) {
-            listofsounds.add(43);
-            SoundBTN41.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN41.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save44", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value44",false)) {
-            listofsounds.add(44);
-            SoundBTN42.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN42.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save45", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value45",false)) {
-            listofsounds.add(45);
-            SoundBTN43.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN43.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save46", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value46",false)) {
-            listofsounds.add(46);
-            SoundBTN44.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN44.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save47", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value47",false)) {
-            listofsounds.add(47);
-            SoundBTN45.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN45.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save48", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value48",false)) {
-            listofsounds.add(48);
-            SoundBTN46.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN46.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save49", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value49",false)) {
-            listofsounds.add(49);
-            SoundBTN47.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN47.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save50", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value50",false)) {
-            listofsounds.add(50);
-            SoundBTN48.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN48.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save51", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value51",false)) {
-            listofsounds.add(51);
-            SoundBTN49.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN49.setVisibility(View.GONE);
-        }
-
-        SavedSettings =getSharedPreferences("save52", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value52",false)) {
-            listofsounds.add(52);
-            SoundBTN50.setVisibility(View.VISIBLE);
-        }else{
-            SoundBTN50.setVisibility(View.GONE);
-        }
-
     }
 
     @Override
