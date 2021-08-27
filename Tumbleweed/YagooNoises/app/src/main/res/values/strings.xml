@@ -4,31 +4,33 @@
     <string name="press_vtuber">Press Yagoo!</string>
 
 
-    <string name="noise1_text">Yagoo!</string>
-    <string name="noise2_text">Eating Mike Tyson\'s ass! </string>
-    <string name="noise3_text">Motherfucker</string>
-    <string name="noise4_text">Oh no!</string>
-    <string name="noise5_text">Oh no she said it! </string>
-    <string name="noise6_text">AH!</string>
-    <string name="noise7_text">PANIK!</string>
-    <string name="noise8_text">Ara ara motherfucker</string>
-    <string name="noise9_text">Yoroshiku onegaishimasu</string>
-    <string name="noise10_text">Next meme!</string>
-    <string name="noise11_text">Hohohohoho</string>
-    <string name="noise12_text">Hai!</string>
-    <string name="noise13_text">OK</string>
-    <string name="noise14_text">Uh en</string>
-    <string name="noise15_text">Nyahallo</string>
-    <string name="noise16_text">Oh</string>
-    <string name="noise17_text">Call me Coco</string>
-    <string name="noise18_text">Sakura Miko</string>
-    <string name="noise19_text">Um</string>
-    <string name="noise20_text">Yeah x5</string>
-    <string name="noise21_text">Freedom lady</string>
-    <string name="noise22_text">Your name is freedom?</string>
-    <string name="noise23_text">Freedom Sakura Miko</string>
-    <string name="noise24_text">Morgan Freeman</string>
-    <string name="noise25_text">Together</string>
+    <string name="noise1_text">はい・・・</string>
+    <string name="noise2_text">あのー</string>
+    <string name="noise3_text">うちの子</string>
+    <string name="noise4_text">Thank you for watching</string>
+    <string name="noise5_text">Thank you(ver.1)</string>
+    <string name="noise6_text">Thank you(ver.2)></string>
+    <string name="noise7_text">えーっと、そうですね</string>
+    <string name="noise8_text">思いながら思ってるんですけれど</string>
+    <string name="noise9_text">そうですね、そんなかんじですね</string>
+    <string name="noise10_text">Cover株式会社の谷郷といいます</string>
+
+    <string name="noise11_text">よろしくおねがいします</string>
+    <string name="noise12_text">I\'m Motoaki Tanigo Cover corp</string>
+    <string name="noise13_text">Hello Everyone</string>
+    <string name="noise14_text">Cover corp is Cutting Edge~</string>
+    <string name="noise15_text">look forward</string>
+    <string name="noise16_text">〜って思ってます</string>
+    <string name="noise17_text">ありえるんじゃないかな</string>
+    <string name="noise18_text">47ちゃいです。</string>
+    <string name="noise19_text">PC画面の見過ぎが原因だと思います</string>
+
+    <string name="noise20_text">ヘ ル シ ェ イ ク Y A G O O</string>
+    <string name="noise21_text">HI HONEY</string>
+    <string name="noise22_text">mother fucker</string>
+    <string name="noise23_text">(おまけ)STUN GUN!!</string>
+
+    <string name="noise25_text">[SPACE KEY]Stop All</string>
     <string name="noise26_text">Free America together</string>
     <string name="noise27_text">Yes!</string>
     <string name="noise28_text">Freedom ready go?</string>
