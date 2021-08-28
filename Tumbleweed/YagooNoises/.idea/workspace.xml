@@ -96,6 +96,11 @@
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
+  <component name="RecentsManager">
+    <key name="android.template.1965216739">
+      <recent name="com.yuzumin.yagoonoises" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
