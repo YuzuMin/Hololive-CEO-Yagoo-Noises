@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,11 +17,12 @@ public class AppMenu extends AppCompatActivity {
 
     CardView AppYoutube;
     CardView AppVersion;
-    CardView LegalInformation;
+    LinearLayout LegalInformation;
 
-    CardView Sound_Settings;
-    CardView AppDownload;
-    CardView MoreApps;
+    LinearLayout Clicker_Settings;
+    LinearLayout Sound_Settings;
+    LinearLayout AppDownload;
+    LinearLayout MoreApps;
 
     Integer DevCount=1;
 
@@ -93,9 +95,9 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    AppVersion.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
-                } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
                     AppVersion.setCardBackgroundColor(getResources().getColor(R.color.blvck));
+                } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                    AppVersion.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
                 }
                 return false;
             }
@@ -116,9 +118,9 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    LegalInformation.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
+                    LegalInformation.setBackgroundColor(getResources().getColor(R.color.darkblvck));
                 } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                    LegalInformation.setCardBackgroundColor(getResources().getColor(R.color.blvck));
+                    LegalInformation.setBackgroundColor(getResources().getColor(R.color.blvck));
                 }
                 return false;
             }
@@ -139,9 +141,9 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    Sound_Settings.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
+                    Sound_Settings.setBackgroundColor(getResources().getColor(R.color.darkblvck));
                 } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                    Sound_Settings.setCardBackgroundColor(getResources().getColor(R.color.blvck));
+                    Sound_Settings.setBackgroundColor(getResources().getColor(R.color.blvck));
                 }
                 return false;
             }
@@ -163,9 +165,9 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    AppDownload.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
+                    AppDownload.setBackgroundColor(getResources().getColor(R.color.darkblvck));
                 } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                    AppDownload.setCardBackgroundColor(getResources().getColor(R.color.blvck));
+                    AppDownload.setBackgroundColor(getResources().getColor(R.color.blvck));
                 }
                 return false;
             }
@@ -187,9 +189,9 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    MoreApps.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
+                    MoreApps.setBackgroundColor(getResources().getColor(R.color.darkblvck));
                 } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                    MoreApps.setCardBackgroundColor(getResources().getColor(R.color.blvck));
+                    MoreApps.setBackgroundColor(getResources().getColor(R.color.blvck));
                 }
                 return false;
             }
