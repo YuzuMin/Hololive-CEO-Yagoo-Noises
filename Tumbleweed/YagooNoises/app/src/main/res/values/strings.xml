@@ -9,7 +9,7 @@
     <string name="noise3_text">うちの子</string>
     <string name="noise4_text">Thank you for watching</string>
     <string name="noise5_text">Thank you(ver.1)</string>
-    <string name="noise6_text">Thank you(ver.2)></string>
+    <string name="noise6_text">Thank you(ver.2)</string>
     <string name="noise7_text">えーっと、そうですね</string>
     <string name="noise8_text">思いながら思ってるんですけれど</string>
     <string name="noise9_text">そうですね、そんなかんじですね</string>
@@ -28,33 +28,4 @@
     <string name="noise20_text">ヘ ル シ ェ イ ク Y A G O O</string>
     <string name="noise21_text">HI HONEY</string>
     <string name="noise22_text">mother fucker</string>
-    <string name="noise23_text">(おまけ)STUN GUN!!</string>
-
-    <string name="noise25_text">[SPACE KEY]Stop All</string>
-    <string name="noise26_text">Free America together</string>
-    <string name="noise27_text">Yes!</string>
-    <string name="noise28_text">Freedom ready go?</string>
-    <string name="noise29_text">Let it go (feat. Miko)</string>
-    <string name="noise30_text">Frozen?</string>
-    <string name="noise31_text">Doko</string>
-    <string name="noise32_text">Freedom lady Doko</string>
-    <string name="noise33_text">Uhh</string>
-    <string name="noise34_text">Free x3</string>
-    <string name="noise35_text">Statue of liberty?</string>
-    <string name="noise36_text">Ohhhh!</string>
-    <string name="noise37_text">Ok ok I know the place</string>
-    <string name="noise38_text">Liberty</string>
-    <string name="noise39_text">Bibiby</string>
-    <string name="noise40_text">Pain peko</string>
-    <string name="noise41_text">Hic</string>
-    <string name="noise42_text">*Dragon laugh*</string>
-    <string name="noise43_text">Wha! What is this?</string>
-    <string name="noise44_text">This is not good x3</string>
-    <string name="noise45_text">Arigathanks minny\'all I love you all</string>
-    <string name="noise46_text">We don\'t wanna hear that shit</string>
-    <string name="noise47_text">Arigatou gozaimasu</string>
-    <string name="noise48_text">Taiwan</string>
-    <string name="noise49_text">Dadadadadadada</string>
-    <string name="noise50_text">Good Morning Motherfuckers</string>
-
 </resources>
