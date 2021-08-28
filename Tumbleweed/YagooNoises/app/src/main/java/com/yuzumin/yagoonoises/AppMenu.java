@@ -56,7 +56,7 @@ public class AppMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(android.content.Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://www.youtube.com/channel/UCS9uQI-jC3DE0L4IpXyvr6w"));
+                i.setData(Uri.parse("https://www.youtube.com/user/tanigox"));
                 startActivity(i);
             }
         });
