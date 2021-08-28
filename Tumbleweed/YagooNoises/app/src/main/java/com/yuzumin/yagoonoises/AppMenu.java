@@ -128,12 +128,35 @@ public class AppMenu extends AppCompatActivity {
 
 
         //Open SoundSettings to change settings
+        Clicker_Settings=findViewById(R.id.clicker);
+        Clicker_Settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent;
+                intent = new Intent(AppMenu.this, ClickerSettings.class);
+                startActivity(intent);
+            }
+        });
+        Clicker_Settings.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if(event.getAction() == MotionEvent.ACTION_UP) {
+                    Clicker_Settings.setBackgroundColor(getResources().getColor(R.color.darkblvck));
+                } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
+                    Clicker_Settings.setBackgroundColor(getResources().getColor(R.color.blvck));
+                }
+                return false;
+            }
+        });
+
+
+        //Open SoundSettings to change settings
         Sound_Settings=findViewById(R.id.sounds);
         Sound_Settings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(AppMenu.this, ClickerSettings.class);
+                intent = new Intent(AppMenu.this, SoundSettings.class);
                 startActivity(intent);
             }
         });
@@ -196,7 +219,5 @@ public class AppMenu extends AppCompatActivity {
                 return false;
             }
         });
-
-
     }
 }
