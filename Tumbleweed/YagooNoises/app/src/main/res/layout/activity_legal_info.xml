@@ -13,32 +13,30 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
             android:layout_width="match_parent"
+            android:paddingHorizontal="20dp"
             android:layout_height="wrap_content">
-            <Space
-                android:layout_width="20dp"
-                android:layout_height="wrap_content"/>
+
+
             <ImageView
                 android:id="@+id/back_btn"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/abt_back"
-                android:layout_width="50dp"
-                android:layout_height="50dp"/>
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
             <TextView
-                android:layout_weight="1"
-                android:paddingTop="15dp"
-                android:paddingBottom="15dp"
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Legal Information"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textSize="25sp" />
-            <Space
-                android:layout_width="65dp"
-                android:layout_height="wrap_content"/>
+                android:paddingVertical="5dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="Information"
+                android:textAlignment="viewStart"
+                android:textColor="@color/porcelain"
+                android:textSize="35sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +68,7 @@
                 android:textSize="19dp"
                 android:textColor="@color/porcelain"
                 android:layout_marginBottom="5dp"
-                android:text="GPLv3 License" />
+                android:text="MIT License" />
         </LinearLayout>
 
         <LinearLayout
