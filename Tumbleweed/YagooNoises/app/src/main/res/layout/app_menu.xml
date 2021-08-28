@@ -51,6 +51,7 @@
 
 
             <LinearLayout
+                android:layout_marginBottom="10dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -65,7 +66,6 @@
                         android:id="@+id/app_youtube"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        app:cardBackgroundColor="@color/blvck"
                         app:cardCornerRadius="15dp">
 
                         <RelativeLayout
@@ -76,8 +76,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:src="@drawable/bg0"
-                                android:backgroundTintMode="src_in"
-                                android:backgroundTint="#9F000000"
                                 android:scaleType="centerCrop"/>
 
                             <LinearLayout
