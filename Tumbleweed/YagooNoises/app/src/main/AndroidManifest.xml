@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CharacterSettings"
-            android:exported="true" />
-        <activity
             android:name=".SoundSettings"
             android:exported="true" />
         <activity
