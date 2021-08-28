@@ -18,5 +18,7 @@
     <color name="button">#F17954</color>
     <color name="clearbutton">#A9F17954</color>
     <color name="cardBackgroundColor">#A9101010</color>
+    <color name="warningColor">#FF8080</color>
+    <color name="greenColor">#80FF80</color>
 
 </resources>
