@@ -10,27 +10,34 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.yuzumin.yagoonoises.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:name=".CharacterSettings"
+            android:exported="true" />
         <activity
-            android:name="com.yuzumin.yagoonoises.Splash"
+            android:name=".SoundSettings"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.yuzumin.yagoonoises.LegalInfo"
+            android:name=".LegalInfo"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yuzumin.yagoonoises.Reader"
+            android:name=".Reader"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yuzumin.yagoonoises.AppMenu"
+            android:name=".AppMenu"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.yuzumin.yagoonoises.ClickerSettings"
+            android:name=".ClickerSettings"
             android:screenOrientation="portrait" />
     </application>
 
