@@ -1,5 +1,7 @@
 package com.yuzumin.yagoonoises;
 
+import static android.content.Context.MODE_PRIVATE;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -58,6 +60,9 @@ public class Splash extends AppCompatActivity {
         sharedPref =getSharedPreferences("serverActivation", MODE_PRIVATE);
         if (!sharedPref.getBoolean("isActivated", false)) {
             String url = "https://yuzumin.github.io/Hololive-CEO-Yagoo-Noises/V1.json";
+            JSONArray arr = new JSONArray(url);
+            JSONObject jObj = arr.getJSONObject(0);
+            String date = jObj.getString("NeededString");
         }
 
 
