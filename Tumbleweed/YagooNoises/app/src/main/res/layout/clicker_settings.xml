@@ -24,7 +24,7 @@
             <ImageView
                 android:id="@+id/back_btn"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/abt_back"
+                android:src="@drawable/back"
                 android:layout_width="40dp"
                 android:layout_height="40dp"/>
 
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingVertical="5dp"
-                android:text="Clicker Settings"
+                android:text="@string/clicker_settings"
                 android:fontFamily="sans-serif-thin"
                 android:textAlignment="viewStart"
                 android:textColor="@color/porcelain"
@@ -93,7 +93,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Turn On Clicker"
+                                            android:text="@string/turn_on_clicker"
                                             android:textColor="@color/porcelain"
                                             android:textSize="17sp" />
 
@@ -114,7 +114,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Show Popup Text"
+                                            android:text="@string/show_popup_text"
                                             android:textColor="@color/porcelain"
                                             android:textSize="17sp" />
 
@@ -135,7 +135,7 @@
                                             android:layout_weight="1"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Show Button Bar"
+                                            android:text="@string/show_button_bar"
                                             android:textColor="@color/porcelain"
                                             android:textSize="17sp" />
 
@@ -151,7 +151,7 @@
 
                             <TextView
                                 android:layout_marginVertical="10dp"
-                                android:text="Character Settings"
+                                android:text="@string/character_settings"
                                 android:textAlignment="center"
                                 android:textColor="#FFFFFF"
                                 android:textSize="17sp"
