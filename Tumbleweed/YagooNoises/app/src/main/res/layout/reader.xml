@@ -23,7 +23,7 @@
             <ImageView
                 android:id="@+id/back_btn"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/abt_back"
+                android:src="@drawable/back"
                 android:layout_width="40dp"
                 android:layout_height="40dp"/>
 
