@@ -142,7 +142,7 @@ public class ClickerSettings extends AppCompatActivity {
         // for switch 2 to activate
         switch2=findViewById(R.id.switch2);
         SoundSettings =getSharedPreferences("save2",MODE_PRIVATE);
-        switch2.setChecked(SoundSettings.getBoolean("value2",true));
+        switch2.setChecked(SoundSettings.getBoolean("value2",false));
         switch2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
