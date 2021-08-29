@@ -708,7 +708,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         switch1= SavedSettings.getBoolean("value1",true);
 
         SavedSettings =getSharedPreferences("save2",MODE_PRIVATE);
-        switch2= SavedSettings.getBoolean("value2",true);
+        switch2= SavedSettings.getBoolean("value2",false);
 
 
 
@@ -722,7 +722,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save4", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value4",false)) {
+        if (SavedSettings.getBoolean("value4",true)) {
             listofsounds.add(4);
             SoundBTN2.setVisibility(View.VISIBLE);
         }else{
@@ -730,7 +730,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save5", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value5",false)) {
+        if (SavedSettings.getBoolean("value5",true)) {
             listofsounds.add(5);
             SoundBTN3.setVisibility(View.VISIBLE);
         }else{
@@ -738,7 +738,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save6", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value6",false)) {
+        if (SavedSettings.getBoolean("value6",true)) {
             listofsounds.add(6);
             SoundBTN4.setVisibility(View.VISIBLE);
         }else{
@@ -746,7 +746,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save7", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value7",false)) {
+        if (SavedSettings.getBoolean("value7",true)) {
             listofsounds.add(7);
             SoundBTN5.setVisibility(View.VISIBLE);
         }else{
@@ -754,7 +754,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save8", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value8",false)) {
+        if (SavedSettings.getBoolean("value8",true)) {
             listofsounds.add(8);
             SoundBTN6.setVisibility(View.VISIBLE);
         }else{
@@ -762,7 +762,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save9", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value9",false)) {
+        if (SavedSettings.getBoolean("value9",true)) {
             listofsounds.add(9);
             SoundBTN7.setVisibility(View.VISIBLE);
         }else{
@@ -770,7 +770,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save10", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value10",false)) {
+        if (SavedSettings.getBoolean("value10",true)) {
             listofsounds.add(10);
             SoundBTN8.setVisibility(View.VISIBLE);
         }else{
@@ -778,7 +778,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save11", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value11",false)) {
+        if (SavedSettings.getBoolean("value11",true)) {
             listofsounds.add(11);
             SoundBTN9.setVisibility(View.VISIBLE);
         }else{
@@ -786,7 +786,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save12", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value12",false)) {
+        if (SavedSettings.getBoolean("value12",true)) {
             listofsounds.add(12);
             SoundBTN10.setVisibility(View.VISIBLE);
         }else{
@@ -794,7 +794,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save13", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value13",false)) {
+        if (SavedSettings.getBoolean("value13",true)) {
             listofsounds.add(13);
             SoundBTN11.setVisibility(View.VISIBLE);
         }else{
@@ -802,7 +802,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save14", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value14",false)) {
+        if (SavedSettings.getBoolean("value14",true)) {
             listofsounds.add(14);
             SoundBTN12.setVisibility(View.VISIBLE);
         }else{
@@ -810,7 +810,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save15", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value15",false)) {
+        if (SavedSettings.getBoolean("value15",true)) {
             listofsounds.add(15);
             SoundBTN13.setVisibility(View.VISIBLE);
         }else{
@@ -818,7 +818,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save16", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value16",false)) {
+        if (SavedSettings.getBoolean("value16",true)) {
             listofsounds.add(16);
             SoundBTN14.setVisibility(View.VISIBLE);
         }else{
@@ -826,7 +826,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save17", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value17",false)) {
+        if (SavedSettings.getBoolean("value17",true)) {
             listofsounds.add(17);
             SoundBTN15.setVisibility(View.VISIBLE);
         }else{
@@ -834,7 +834,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save18", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value18",false)) {
+        if (SavedSettings.getBoolean("value18",true)) {
             listofsounds.add(18);
             SoundBTN16.setVisibility(View.VISIBLE);
         }else{
@@ -842,7 +842,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save19", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value19",false)) {
+        if (SavedSettings.getBoolean("value19",true)) {
             listofsounds.add(19);
             SoundBTN17.setVisibility(View.VISIBLE);
         }else{
@@ -850,7 +850,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save20", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value20",false)) {
+        if (SavedSettings.getBoolean("value20",true)) {
             listofsounds.add(20);
             SoundBTN18.setVisibility(View.VISIBLE);
         }else{
@@ -858,7 +858,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save21", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value21",false)) {
+        if (SavedSettings.getBoolean("value21",true)) {
             listofsounds.add(21);
             SoundBTN19.setVisibility(View.VISIBLE);
         }else{
@@ -866,7 +866,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save22", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value22",false)) {
+        if (SavedSettings.getBoolean("value22",true)) {
             listofsounds.add(22);
             SoundBTN20.setVisibility(View.VISIBLE);
         }else{
@@ -874,7 +874,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save23", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value23",false)) {
+        if (SavedSettings.getBoolean("value23",true)) {
             listofsounds.add(23);
             SoundBTN21.setVisibility(View.VISIBLE);
         }else{
@@ -882,7 +882,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         }
 
         SavedSettings =getSharedPreferences("save24", MODE_PRIVATE);
-        if (SavedSettings.getBoolean("value24",false)) {
+        if (SavedSettings.getBoolean("value24",true)) {
             listofsounds.add(24);
             SoundBTN22.setVisibility(View.VISIBLE);
         }else{
