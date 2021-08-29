@@ -114,7 +114,7 @@ public class AppMenu extends AppCompatActivity {
         if (sharedPreferences.getBoolean("isActivated", false)) {
             NotificationView.setCardBackgroundColor(getResources().getColor(R.color.greenColor));
             NotificationImage.setImageResource(R.drawable.tick);
-            NotificationText.setText("Activated");
+            NotificationText.setText(R.string.activated);
         }
 
 
@@ -193,9 +193,15 @@ public class AppMenu extends AppCompatActivity {
         AppDownload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /*
                 Intent i = new Intent(android.content.Intent.ACTION_VIEW);
                 i.setData(Uri.parse("https://drive.google.com/drive/folders/1q6oL0BCMz3zmzWKFGhTEu6YTOxSUJj7G?usp=sharing"));
                 startActivity(i);
+                 */
+
+                Intent intent;
+                intent = new Intent(AppMenu.this, AssetDownload.class);
+                startActivity(intent);
             }
         });
         AppDownload.setOnTouchListener(new View.OnTouchListener() {
