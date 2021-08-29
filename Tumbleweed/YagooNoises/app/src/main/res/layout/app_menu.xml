@@ -26,7 +26,7 @@
             <ImageView
                 android:id="@+id/back_btn"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/abt_back"
+                android:src="@drawable/back"
                 android:layout_width="40dp"
                 android:layout_height="40dp"/>
 
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:paddingVertical="5dp"
                 android:fontFamily="sans-serif-thin"
-                android:text="Settings"
+                android:text="@string/settings"
                 android:textAlignment="viewStart"
                 android:textColor="@color/porcelain"
                 android:textSize="35sp" />
@@ -97,7 +97,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="sans-serif-medium"
-                                        android:text="Youtube Channel"
+                                        android:text="@string/youtube_channel"
                                         android:textAlignment="textStart"
                                         android:textColor="@color/porcelain"
                                         android:textSize="15sp" />
@@ -132,7 +132,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="sans-serif-medium"
-                                        android:text="Yagoo best girl!"
+                                        android:text="@string/channel_tagline"
                                         android:textAlignment="textStart"
                                         android:textColor="@color/darkporcelain" />
                                 </LinearLayout>
@@ -182,7 +182,7 @@
                                     android:fontFamily="sans-serif-medium"
                                     android:textAlignment="textStart"
                                     android:textColor="@color/porcelain"
-                                    android:text="Version"
+                                    android:text="@string/version"
                                     android:textSize="15sp" />
 
                                 <TextView
@@ -229,7 +229,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-medium"
-                                    android:text="Manual Activation Required"
+                                    android:text="@string/failedAuth"
                                     android:textAlignment="center"
                                     android:textColor="@color/blvck"
                                     android:textSize="13sp" />
@@ -257,7 +257,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="Clicker Settings"
+                    android:text="@string/clicker_settings"
                     android:textAlignment="viewStart"
                     android:textColor="@color/porcelain"
                     android:textSize="18sp" />
@@ -288,7 +288,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="Sounds"
+                    android:text="@string/sounds"
                     android:textAlignment="viewStart"
                     android:textColor="@color/porcelain"
                     android:textSize="18sp" />
@@ -312,14 +312,14 @@
                     android:layout_gravity="center"
                     android:layout_width="25dp"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/abt_download" />
+                    app:srcCompat="@drawable/download" />
 
                 <TextView
                     android:layout_marginLeft="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="Downloads"
+                    android:text="@string/downloads"
                     android:textAlignment="viewStart"
                     android:textColor="@color/porcelain"
                     android:textSize="18sp" />
@@ -350,7 +350,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="Information"
+                    android:text="@string/information"
                     android:textAlignment="viewStart"
                     android:textColor="@color/porcelain"
                     android:textSize="18sp" />
@@ -381,7 +381,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="More Apps"
+                    android:text="@string/more_apps"
                     android:textAlignment="viewStart"
                     android:textColor="@color/porcelain"
                     android:textSize="18sp" />
