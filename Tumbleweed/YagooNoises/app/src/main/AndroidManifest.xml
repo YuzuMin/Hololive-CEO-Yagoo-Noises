@@ -28,7 +28,7 @@
             android:name=".LegalInfo"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Reader"
+            android:name=".InfoReader"
             android:screenOrientation="portrait" />
         <activity
             android:name=".AppMenu"
