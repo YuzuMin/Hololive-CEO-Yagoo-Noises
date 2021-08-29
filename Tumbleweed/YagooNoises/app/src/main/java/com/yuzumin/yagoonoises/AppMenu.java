@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,11 +18,14 @@ public class AppMenu extends AppCompatActivity {
 
     CardView AppYoutube;
     CardView AppVersion;
-    LinearLayout LegalInformation;
+    CardView NotificationView;
+    ImageView NotificationImage;
+    TextView NotificationText;
 
     LinearLayout Clicker_Settings;
     LinearLayout Sound_Settings;
     LinearLayout AppDownload;
+    LinearLayout LegalInformation;
     LinearLayout MoreApps;
 
     Integer DevCount=1;
@@ -102,6 +106,16 @@ public class AppMenu extends AppCompatActivity {
                 return false;
             }
         });
+
+        NotificationView=findViewById(R.id.notification_view);
+        NotificationImage=findViewById(R.id.notification_image);
+        NotificationText=findViewById(R.id.notification_text);
+        sharedPreferences =getSharedPreferences("serverActivation", MODE_PRIVATE);
+        if (sharedPreferences.getBoolean("isActivated", false)) {
+            NotificationView.setCardBackgroundColor(getResources().getColor(R.color.greenColor));
+            NotificationImage.setImageResource(R.drawable.tick);
+            NotificationText.setText("Activated");
+        }
 
 
         //View Privacy policy and User Agreement and Terms of use

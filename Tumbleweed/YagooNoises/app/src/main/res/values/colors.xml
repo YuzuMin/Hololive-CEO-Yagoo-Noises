@@ -2,11 +2,11 @@
 <resources>
     <color name="colorPrimary">#101010</color>
     <color name="colorPrimaryDark">#000</color>
-    <color name="colorAccent">#F17954</color>
+    <color name="colorAccent">#54CAFF</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="homeicons">#F17954</color>
-    <color name="clearhomeicons">#C9101010</color>
+    <color name="homebuttons">#101010</color>
     <color name="alarmbutton">#8660FF</color>
     <color name="blvck">#FF1f1f1f</color>
     <color name="lightblvck">#222222</color>
@@ -15,8 +15,8 @@
     <color name="darkblvck">#121212</color>
     <color name="porcelain">#F3F3F3</color>
     <color name="darkporcelain">#ACACAC</color>
-    <color name="button">#F17954</color>
-    <color name="clearbutton">#A9F17954</color>
+    <color name="button">#54CAFF</color>
+    <color name="clearbutton">#A954CAFF</color>
     <color name="cardBackgroundColor">#A9101010</color>
     <color name="warningColor">#FF8080</color>
     <color name="greenColor">#80FF80</color>

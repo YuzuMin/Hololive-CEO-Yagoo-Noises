@@ -1,7 +1,5 @@
 package com.yuzumin.yagoonoises;
 
-import static android.content.Context.MODE_PRIVATE;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -13,34 +11,14 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.NetworkError;
-import com.android.volley.NoConnectionError;
-import com.android.volley.ParseError;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.ServerError;
-import com.android.volley.TimeoutError;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.Reader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.nio.charset.Charset;
 
 public class Splash extends AppCompatActivity {
 
@@ -59,10 +37,7 @@ public class Splash extends AppCompatActivity {
 
         sharedPref =getSharedPreferences("serverActivation", MODE_PRIVATE);
         if (!sharedPref.getBoolean("isActivated", false)) {
-            String url = "https://yuzumin.github.io/Hololive-CEO-Yagoo-Noises/V1.json";
-            JSONArray arr = new JSONArray(url);
-            JSONObject jObj = arr.getJSONObject(0);
-            String date = jObj.getString("NeededString");
+            new AuthTask().execute();
         }
 
 
@@ -104,6 +79,73 @@ public class Splash extends AppCompatActivity {
             }
         };
         timer.start();
+    }
+
+    protected class AuthTask extends AsyncTask<Void, Void, JSONObject>
+    {
+        @Override
+        protected JSONObject doInBackground(Void... params)
+        {
+
+            String str="https://yuzumin.github.io/Hololive-CEO-Yagoo-Noises/V1.json";
+            URLConnection urlConn = null;
+            BufferedReader bufferedReader = null;
+            try
+            {
+                URL url = new URL(str);
+                urlConn = url.openConnection();
+                bufferedReader = new BufferedReader(new InputStreamReader(urlConn.getInputStream()));
+
+                StringBuffer stringBuffer = new StringBuffer();
+                String line;
+                while ((line = bufferedReader.readLine()) != null)
+                {
+                    stringBuffer.append(line);
+                }
+
+                return new JSONObject(stringBuffer.toString());
+            }
+            catch(Exception ex)
+            {
+                Log.e("App", "yourDataTask", ex);
+                return null;
+            }
+            finally
+            {
+                if(bufferedReader != null)
+                {
+                    try {
+                        bufferedReader.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+
+        @Override
+        protected void onPostExecute(JSONObject response)
+        {
+            if(response != null)
+            {
+                try {
+                    Log.e("App", "Success: " + response.getString("isActivated") );
+                    String str = response.getString("isActivated");
+                    if(str.equals("true")){
+                        activation = getSharedPreferences("serverActivation",MODE_PRIVATE).edit();
+                        activation.putBoolean("isActivated",true);
+                        activation.apply();
+
+                        activation = getSharedPreferences("save2",MODE_PRIVATE).edit();
+                        activation.putBoolean("value2",true);
+                        activation.apply();
+                    }
+
+                } catch (JSONException ex) {
+                    Log.e("App", "Failure", ex);
+                }
+            }
+        }
     }
 }
 
