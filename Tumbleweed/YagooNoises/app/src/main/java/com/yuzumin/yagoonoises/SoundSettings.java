@@ -323,7 +323,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 4 to activate
         switch4=findViewById(R.id.switch4);
         SoundSettings =getSharedPreferences("save4",MODE_PRIVATE);
-        switch4.setChecked(SoundSettings.getBoolean("value4",false));
+        switch4.setChecked(SoundSettings.getBoolean("value4",true));
         switch4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -344,7 +344,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 5 to activate
         switch5=findViewById(R.id.switch5);
         SoundSettings =getSharedPreferences("save5",MODE_PRIVATE);
-        switch5.setChecked(SoundSettings.getBoolean("value5",false));
+        switch5.setChecked(SoundSettings.getBoolean("value5",true));
         switch5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -365,7 +365,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 6 to activate
         switch6=findViewById(R.id.switch6);
         SoundSettings =getSharedPreferences("save6",MODE_PRIVATE);
-        switch6.setChecked(SoundSettings.getBoolean("value6",false));
+        switch6.setChecked(SoundSettings.getBoolean("value6",true));
         switch6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -386,7 +386,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 7 to activate
         switch7=findViewById(R.id.switch7);
         SoundSettings =getSharedPreferences("save7",MODE_PRIVATE);
-        switch7.setChecked(SoundSettings.getBoolean("value7",false));
+        switch7.setChecked(SoundSettings.getBoolean("value7",true));
         switch7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -407,7 +407,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 8 to activate
         switch8=findViewById(R.id.switch8);
         SoundSettings =getSharedPreferences("save8",MODE_PRIVATE);
-        switch8.setChecked(SoundSettings.getBoolean("value8",false));
+        switch8.setChecked(SoundSettings.getBoolean("value8",true));
         switch8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -428,7 +428,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 9 to activate
         switch9=findViewById(R.id.switch9);
         SoundSettings =getSharedPreferences("save9",MODE_PRIVATE);
-        switch9.setChecked(SoundSettings.getBoolean("value9",false));
+        switch9.setChecked(SoundSettings.getBoolean("value9",true));
         switch9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -449,7 +449,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 10 to activate
         switch10=findViewById(R.id.switch10);
         SoundSettings =getSharedPreferences("save10",MODE_PRIVATE);
-        switch10.setChecked(SoundSettings.getBoolean("value10",false));
+        switch10.setChecked(SoundSettings.getBoolean("value10",true));
         switch10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -470,7 +470,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 11 to activate
         switch11=findViewById(R.id.switch11);
         SoundSettings =getSharedPreferences("save11",MODE_PRIVATE);
-        switch11.setChecked(SoundSettings.getBoolean("value11",false));
+        switch11.setChecked(SoundSettings.getBoolean("value11",true));
         switch11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -491,7 +491,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 12 to activate
         switch12=findViewById(R.id.switch12);
         SoundSettings =getSharedPreferences("save12",MODE_PRIVATE);
-        switch12.setChecked(SoundSettings.getBoolean("value12",false));
+        switch12.setChecked(SoundSettings.getBoolean("value12",true));
         switch12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -512,7 +512,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 13 to activate
         switch13=findViewById(R.id.switch13);
         SoundSettings =getSharedPreferences("save13",MODE_PRIVATE);
-        switch13.setChecked(SoundSettings.getBoolean("value13",false));
+        switch13.setChecked(SoundSettings.getBoolean("value13",true));
         switch13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -533,7 +533,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 14 to activate
         switch14=findViewById(R.id.switch14);
         SoundSettings =getSharedPreferences("save14",MODE_PRIVATE);
-        switch14.setChecked(SoundSettings.getBoolean("value14",false));
+        switch14.setChecked(SoundSettings.getBoolean("value14",true));
         switch14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -554,7 +554,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 15 to activate
         switch15=findViewById(R.id.switch15);
         SoundSettings =getSharedPreferences("save15",MODE_PRIVATE);
-        switch15.setChecked(SoundSettings.getBoolean("value15",false));
+        switch15.setChecked(SoundSettings.getBoolean("value15",true));
         switch15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -575,7 +575,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 16 to activate
         switch16=findViewById(R.id.switch16);
         SoundSettings =getSharedPreferences("save16",MODE_PRIVATE);
-        switch16.setChecked(SoundSettings.getBoolean("value16",false));
+        switch16.setChecked(SoundSettings.getBoolean("value16",true));
         switch16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -596,7 +596,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 17 to activate
         switch17=findViewById(R.id.switch17);
         SoundSettings =getSharedPreferences("save17",MODE_PRIVATE);
-        switch17.setChecked(SoundSettings.getBoolean("value17",false));
+        switch17.setChecked(SoundSettings.getBoolean("value17",true));
         switch17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -617,7 +617,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 18 to activate
         switch18=findViewById(R.id.switch18);
         SoundSettings =getSharedPreferences("save18",MODE_PRIVATE);
-        switch18.setChecked(SoundSettings.getBoolean("value18",false));
+        switch18.setChecked(SoundSettings.getBoolean("value18",true));
         switch18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -638,7 +638,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 19 to activate
         switch19=findViewById(R.id.switch19);
         SoundSettings =getSharedPreferences("save19",MODE_PRIVATE);
-        switch19.setChecked(SoundSettings.getBoolean("value19",false));
+        switch19.setChecked(SoundSettings.getBoolean("value19",true));
         switch19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -659,7 +659,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 20 to activate
         switch20=findViewById(R.id.switch20);
         SoundSettings =getSharedPreferences("save20",MODE_PRIVATE);
-        switch20.setChecked(SoundSettings.getBoolean("value20",false));
+        switch20.setChecked(SoundSettings.getBoolean("value20",true));
         switch20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -680,7 +680,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 21 to activate
         switch21=findViewById(R.id.switch21);
         SoundSettings =getSharedPreferences("save21",MODE_PRIVATE);
-        switch21.setChecked(SoundSettings.getBoolean("value21",false));
+        switch21.setChecked(SoundSettings.getBoolean("value21",true));
         switch21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -701,7 +701,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 22 to activate
         switch22=findViewById(R.id.switch22);
         SoundSettings =getSharedPreferences("save22",MODE_PRIVATE);
-        switch22.setChecked(SoundSettings.getBoolean("value22",false));
+        switch22.setChecked(SoundSettings.getBoolean("value22",true));
         switch22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -722,7 +722,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 23 to activate
         switch23=findViewById(R.id.switch23);
         SoundSettings =getSharedPreferences("save23",MODE_PRIVATE);
-        switch23.setChecked(SoundSettings.getBoolean("value23",false));
+        switch23.setChecked(SoundSettings.getBoolean("value23",true));
         switch23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -743,7 +743,7 @@ public class SoundSettings extends AppCompatActivity {
 // for switch 24 to activate
         switch24=findViewById(R.id.switch24);
         SoundSettings =getSharedPreferences("save24",MODE_PRIVATE);
-        switch24.setChecked(SoundSettings.getBoolean("value24",false));
+        switch24.setChecked(SoundSettings.getBoolean("value24",true));
         switch24.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
