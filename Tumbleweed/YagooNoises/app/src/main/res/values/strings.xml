@@ -1,7 +1,59 @@
 <resources>
+    <!--MainActivity-->
     <string name="app_name">Yagoo Noises</string>
-    <string name="app_version">2021.8 REV-1</string>
     <string name="press_vtuber">Press Yagoo!</string>
+    <string name="sit_back">Sit Back &amp; Chill</string>
+    <!--AppMenu-->
+    <string name="version">Version</string>
+    <string name="app_version">2021.8 REV-1</string>
+    <string name="youtube_channel">Youtube Channel</string>
+    <string name="channel_tagline">Yagoo best girl!</string>
+    <string name="clicker_settings">Clicker Settings</string>
+    <string name="sounds">Sounds</string>
+    <string name="downloads">Downloads</string>
+    <string name="information">Information</string>
+    <string name="more_apps">More Apps</string>
+    <string name="failedAuth">Manual Activation Required</string>
+    <string name="activated">Activated</string>
+    <string name="settings">Settings</string>
+    <string name="toggle">Toggle</string>
+    <!--Clicker Settings-->
+    <string name="turn_on_clicker">Turn On Clicker</string>
+    <string name="show_popup_text">Show Popup Text</string>
+    <string name="show_button_bar">Show Button Bar</string>
+    <string name="character_settings">Character Settings</string>
+    <!--Information-->
+    <string name="instruction_manual">Instruction Manual</string>
+    <string name="mit_license">MIT License</string>
+    <string name="release_notes">Release Notes</string>
+    <!--InfoReader-->
+    <string name="instruction_manual_text">1. HOW TO USE APP\n
+                        Simply follow the on screen instructions and click on the character.\n
+                        \n
+                        2. AUTOCLICK\n
+                        Tap the words \"Press Yagoo\" and the text will become \"Sit Back &amp; Chill\". This will allow the app to autoplay random noises continuously\n
+                        \n
+                        3. Download Assets\n
+                        Go to the Settings Menu and you will see a button that says Downloads. You can Audio, Image and Video here\n
+                        \n
+                        4. DEVELOPER MODE\n
+                        To unlock Developer mode, Goto Settings tap Version at least 7 times, developer mode merely unlocks unstable features that are currently in development\n
+                        \n
+                        \n</string>
+    <string name="release_notes_text">/***NEW FEATURES***/\n
+                                •Developer Mode\n
+                                •Asset Download\n
+                                •Button Bar\n
+                                •Auto Click Mode\n
+                                \n
+                                \n
+                                /***FIXES***/\n
+                                •New Randomizer\n
+                                •Popup Text Error\n
+                                \n
+                                \n</string>
+    <string name="error">Error</string>
+    <string name="error_text">Oops Something must\'ve went wrong</string>
 
 
     <string name="noise1_text">はい・・・</string>
