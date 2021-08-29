@@ -87,7 +87,7 @@ public class Splash extends AppCompatActivity {
         protected JSONObject doInBackground(Void... params)
         {
 
-            String str="https://yuzumin.github.io/Hololive-CEO-Yagoo-Noises/V1.json";
+            String str="https://raw.githubusercontent.com/YuzuMin/Hololive-CEO-Yagoo-Noises/main/Activation/VC-1.json";
             URLConnection urlConn = null;
             BufferedReader bufferedReader = null;
             try
