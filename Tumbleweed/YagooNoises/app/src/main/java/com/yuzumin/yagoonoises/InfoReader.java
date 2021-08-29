@@ -40,23 +40,11 @@ public class InfoReader extends AppCompatActivity {
 
         switch(value){
             case 0:
-                title.setText("Instruction Manual");
-                text.setText("1. HOW TO USE APP\n"+
-                        "Simply follow the on screen instructions and click on the character.\n" +
-                        "\n" +
-                        "2. AUTOCLICK\n" +
-                        "Tap the the words \"Press Yagoo\" and the text will become \"Sit Back & Chill\". This will allow the app to autoplay random noises continously\n" +
-                        "\n" +
-                        "3. Download Audio\n" +
-                        "Go to the App Menu and you will see a button that says Downloads, this would bring you to a Google Drive Folder with 3 subfolders, Audio, Image and Video. You can find the audio clips and images used in this app in those folders\n" +
-                        "\n" +
-                        "4. DEVELOPER MODE\n" +
-                        "To unlock Developer mode, Goto Settings tap Version at least 7 times, developer mode merely unlocks unstable features that are currently in development\n" +
-                        "\n" +
-                        "\n");
+                title.setText(R.string.instruction_manual);
+                text.setText(R.string.instruction_manual_text);
                 break;
             case 1:
-                title.setText("License");
+                title.setText(R.string.mit_license);
                 text.setText("MIT License\n" +
                         "\n" +
                         "Copyright (c) 2021 YuzuMin\n" +
@@ -68,24 +56,12 @@ public class InfoReader extends AppCompatActivity {
                         "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.");
                 break;
             case 2:
-                title.setText("Release Notes" );
-                text.setText(
-                        "/***NEW FEATURES***/\n" +
-                                "•Developer Mode\n" +
-                                "•Google Drive Download\n" +
-                                "•Button Bar\n" +
-                                "•Auto Click Mode\n" +
-                                "\n" +
-                                "\n" +
-                                "/***FIXES***/\n" +
-                                "•New Randomizer\n" +
-                                "•Popup Text Error\n" +
-                                "\n" +
-                                "\n");
+                title.setText(R.string.release_notes);
+                text.setText(R.string.release_notes_text);
                 break;
             default:
-                title.setText("Error" );
-                text.setText("Oops Something must've went wrong");
+                title.setText(R.string.error);
+                text.setText(R.string.error_text);
         }
     }
 }
