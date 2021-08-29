@@ -23,7 +23,7 @@
             <ImageView
                 android:id="@+id/back_btn"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/abt_back"
+                android:src="@drawable/back"
                 android:layout_width="40dp"
                 android:layout_height="40dp"/>
 
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:paddingVertical="5dp"
                 android:fontFamily="sans-serif-thin"
-                android:text="Information"
+                android:text="@string/information"
                 android:textAlignment="viewStart"
                 android:textColor="@color/porcelain"
                 android:textSize="35sp" />
@@ -52,7 +52,7 @@
                 android:textSize="19dp"
                 android:textColor="@color/porcelain"
                 android:layout_marginBottom="5dp"
-                android:text="Instruction Manual" />
+                android:text="@string/instruction_manual" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,7 +68,7 @@
                 android:textSize="19dp"
                 android:textColor="@color/porcelain"
                 android:layout_marginBottom="5dp"
-                android:text="MIT License" />
+                android:text="@string/mit_license" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,7 +84,7 @@
                 android:textSize="19dp"
                 android:textColor="@color/porcelain"
                 android:layout_marginBottom="5dp"
-                android:text="Release Notes" />
+                android:text="@string/release_notes" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
