@@ -53,7 +53,7 @@ public class LegalInfo extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent intent;
-            intent=new Intent(LegalInfo.this,Reader.class);
+            intent=new Intent(LegalInfo.this, InfoReader.class);
             intent.putExtra("Value",0); //sends a 1 to reader activity to show user agreement
             startActivity(intent);
         }
@@ -78,7 +78,7 @@ public class LegalInfo extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent intent;
-            intent=new Intent(LegalInfo.this,Reader.class);
+            intent=new Intent(LegalInfo.this, InfoReader.class);
             intent.putExtra("Value",1); //sends a 3 to reader activity to show click license
             startActivity(intent);
         }
@@ -103,7 +103,7 @@ public class LegalInfo extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent intent;
-            intent=new Intent(LegalInfo.this,Reader.class);
+            intent=new Intent(LegalInfo.this, InfoReader.class);
             intent.putExtra("Value",2); //sends a 3 to reader activity to show click license
             startActivity(intent);
         }
