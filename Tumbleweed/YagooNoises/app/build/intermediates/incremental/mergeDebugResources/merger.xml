@@ -9080,11 +9080,7 @@
       
       <enum name="endToStart" value="3"/>
     </attr>
-  </declare-styleable><declare-styleable name="AppWidgetAttrs">
-        <attr format="dimension" name="appWidgetPadding"/>
-        <attr format="dimension" name="appWidgetInnerRadius"/>
-        <attr format="dimension" name="appWidgetRadius"/>
-    </declare-styleable><declare-styleable name="MaterialTextAppearance" parent="TextAppearance">
+  </declare-styleable><declare-styleable name="MaterialTextAppearance" parent="TextAppearance">
     <attr name="android:lineHeight"/>
     <attr format="dimension" name="lineHeight"/>
     <attr name="android:letterSpacing"/>
