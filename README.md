@@ -6,9 +6,29 @@ Yagoo Noises is a clicker app for Android smartphones and tablets that brings en
 The interface of Yagoo Noises is designed to be simple, intuitive and efficient. By removing what is not essential, we make access to everything you need even easier.
 
 # Download
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+[<img src="https://raw.githubusercontent.com/YuzuMin/Vtuber-Noises/main/Assets/googleplay.png"
 alt="Get it on Google Play"
 height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.yagoonoises)
+[<img src="https://raw.githubusercontent.com/YuzuMin/Vtuber-Noises/main/Assets/github.png"
+alt="Get it on Github"
+height="80">](https://github.com/YuzuMin/Hololive-CEO-Yagoo-Noises/releases/download/1.0/yagoonoises.apk)
+
+
+
+# Screenshots  
+<img src="Assets/Screenshots/homescreen.png"
+alt="homescreen"
+height="300">
+<img src="Assets/Screenshots/settings.png"
+alt="homescreen"
+height="300">
+<img src="Assets/Screenshots/clickersettings.png"
+alt="homescreen"
+height="300">
+<img src="Assets/Screenshots/sounds.png"
+alt="homescreen"
+height="300">
+
 
 # Features
 * 22 Noises
