@@ -1,5 +1,5 @@
 <resources>
-    
+
     <!--MainActivity-->
     <string name = "app_name"> Yagooノイズ</string>
     <string name = "press_vtuber"> Yagooを押してください！</string>
