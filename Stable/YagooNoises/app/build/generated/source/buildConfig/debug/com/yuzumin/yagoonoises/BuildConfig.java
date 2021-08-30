@@ -8,5 +8,5 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.yuzumin.yagoonoises";
   public static final String BUILD_TYPE = "debug";
   public static final int VERSION_CODE = 1;
-  public static final String VERSION_NAME = "2021.8 REV-1.0";
+  public static final String VERSION_NAME = "2021.8 REV-1";
 }

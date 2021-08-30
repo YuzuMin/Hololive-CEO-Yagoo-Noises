@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout-small/activity_legal_info.xml" value="0.22" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout-small/activity_main.xml" value="0.18854166666666666" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout-small/activity_ringalarm.xml" value="1.292857142857143" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout-small/activity_splash.xml" value="0.34479166666666666" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout/activity_legal_info.xml" value="0.34479166666666666" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout/activity_main2.xml" value="0.25" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout/activity_ringalarm.xml" value="0.18854166666666666" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout/activity_splash.xml" value="0.34479166666666666" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout/activity_splash2.xml" value="0.3307291666666667" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/Stable/YagooNoises/app/src/main/res/layout/app_menu.xml" value="0.34479166666666666" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/YagooNoises/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2046875" />
-        <entry key="..\:/GIT/VTUBER_NOISES/Hololive-CEO-Yagoo-Noises/YagooNoises/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2046875" />
-      </map>
-    </option>
+<<<<<<< Updated upstream
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+>>>>>>> Stashed changes
 </project>
