@@ -80,7 +80,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="D:\GIT\yagoo.png" />
-                                                <entry key="scalingPercent" value="67" />
+                                                <entry key="scalingPercent" value="96" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -113,7 +113,6 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="ed7126" />
                                     </map>
                                   </option>
                                 </PersistentState>
