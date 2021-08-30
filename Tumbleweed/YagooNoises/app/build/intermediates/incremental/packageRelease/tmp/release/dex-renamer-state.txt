@@ -1,4 +1,0 @@
-#Wed Jun 16 19:55:43 SGT 2021
-base.0=D\:\\GIT\\VTUBER_NOISES\\Hololive-GEN4-Kiryu-Coco-Noises\\Stable\\CocoNoises\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
