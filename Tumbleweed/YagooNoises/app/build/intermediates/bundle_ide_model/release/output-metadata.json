@@ -4,13 +4,13 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "com.yuzumin.coconoises",
+  "applicationId": "com.yuzumin.yagoonoises",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "outputFile": "../../../../../../../release/app-release.aab"
+      "outputFile": "../../../../release/app-release.aab"
     }
   ]
 }
