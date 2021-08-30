@@ -2,7 +2,7 @@
 
     <!--MainActivity-->
     <string name = "app_name"> Yagooノイズ</string>
-    <string name = "press_vtuber"> Yagooを押してください！</string>
+    <string name = "press_vtuber"> Yagooを押して！</string>
     <string name = "sit_back">座ってリラックス</string>
     <!--AppMenu-->
     <string name = "version">>バージョン</string>
