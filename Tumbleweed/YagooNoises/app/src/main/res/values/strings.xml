@@ -1,83 +1,242 @@
 <resources>
-    <!--MainActivity-->
     <string name="app_name">Yagoo Noises</string>
+    <string name="app_version">2021.8 REV-1.0</string>
     <string name="press_vtuber">Press Yagoo!</string>
-    <string name="sit_back">Sit Back &amp; Chill</string>
-    <!--AppMenu-->
-    <string name="version">Version</string>
-    <string name="app_version">2021.8 REV-1</string>
-    <string name="youtube_channel">Youtube Channel</string>
-    <string name="channel_tagline">Yagoo best girl!</string>
-    <string name="clicker_settings">Clicker Settings</string>
-    <string name="sounds">Sounds</string>
-    <string name="downloads">Downloads</string>
-    <string name="information">Information</string>
-    <string name="more_apps">More Apps</string>
-    <string name="failedAuth">Manual Activation Required</string>
-    <string name="activated">Activated</string>
-    <string name="settings">Settings</string>
-    <string name="toggle">Toggle</string>
-    <!--Clicker Settings-->
-    <string name="turn_on_clicker">Turn On Clicker</string>
-    <string name="show_popup_text">Show Popup Text</string>
-    <string name="show_button_bar">Show Button Bar</string>
-    <string name="character_settings">Character Settings</string>
-    <!--Information-->
-    <string name="instruction_manual">Instruction Manual</string>
-    <string name="mit_license">MIT License</string>
-    <string name="release_notes">Release Notes</string>
-    <!--InfoReader-->
-    <string name="instruction_manual_text">1. HOW TO USE APP\n
-                        Simply follow the on screen instructions and click on the character.\n
-                        \n
-                        2. AUTOCLICK\n
-                        Tap the words \"Press Yagoo\" and the text will become \"Sit Back &amp; Chill\". This will allow the app to autoplay random noises continuously\n
-                        \n
-                        3. Download Assets\n
-                        Go to the Settings Menu and you will see a button that says Downloads. You can Audio, Image and Video here\n
-                        \n
-                        4. DEVELOPER MODE\n
-                        To unlock Developer mode, Goto Settings tap Version at least 7 times, developer mode merely unlocks unstable features that are currently in development\n
-                        \n
-                        \n</string>
-    <string name="release_notes_text">/***NEW FEATURES***/\n
-                                •Developer Mode\n
-                                •Asset Download\n
-                                •Button Bar\n
-                                •Auto Click Mode\n
-                                \n
-                                \n
-                                /***FIXES***/\n
-                                •New Randomizer\n
-                                •Popup Text Error\n
-                                \n
-                                \n</string>
-    <string name="error">Error</string>
-    <string name="error_text">Oops Something must\'ve went wrong</string>
 
 
-    <string name="noise1_text">はい・・・</string>
-    <string name="noise2_text">あのー</string>
-    <string name="noise3_text">うちの子</string>
-    <string name="noise4_text">Thank you for watching</string>
-    <string name="noise5_text">Thank you(ver.1)</string>
-    <string name="noise6_text">Thank you(ver.2)</string>
-    <string name="noise7_text">えーっと、そうですね</string>
-    <string name="noise8_text">思いながら思ってるんですけれど</string>
-    <string name="noise9_text">そうですね、そんなかんじですね</string>
-    <string name="noise10_text">Cover株式会社の谷郷といいます</string>
+    <string name="noise1_text">Yagoo!</string>
+    <string name="noise2_text">Eating Mike Tyson\'s ass! </string>
+    <string name="noise3_text">Motherfucker</string>
+    <string name="noise4_text">Oh no!</string>
+    <string name="noise5_text">Oh no she said it! </string>
+    <string name="noise6_text">AH!</string>
+    <string name="noise7_text">PANIK!</string>
+    <string name="noise8_text">Ara ara motherfucker</string>
+    <string name="noise9_text">Yoroshiku onegaishimasu</string>
+    <string name="noise10_text">Next meme!</string>
+    <string name="noise11_text">Hohohohoho</string>
+    <string name="noise12_text">Hai!</string>
+    <string name="noise13_text">OK</string>
+    <string name="noise14_text">Uh en</string>
+    <string name="noise15_text">Nyahallo</string>
+    <string name="noise16_text">Oh</string>
+    <string name="noise17_text">Call me Coco</string>
+    <string name="noise18_text">Sakura Miko</string>
+    <string name="noise19_text">Um</string>
+    <string name="noise20_text">Yeah x5</string>
+    <string name="noise21_text">Freedom lady</string>
+    <string name="noise22_text">Your name is freedom?</string>
+    <string name="noise23_text">Freedom Sakura Miko</string>
+    <string name="noise24_text">Morgan Freeman</string>
+    <string name="noise25_text">Together</string>
+    <string name="noise26_text">Free America together</string>
+    <string name="noise27_text">Yes!</string>
+    <string name="noise28_text">Freedom ready go?</string>
+    <string name="noise29_text">Let it go (feat. Miko)</string>
+    <string name="noise30_text">Frozen?</string>
+    <string name="noise31_text">Doko</string>
+    <string name="noise32_text">Freedom lady Doko</string>
+    <string name="noise33_text">Uhh</string>
+    <string name="noise34_text">Free x3</string>
+    <string name="noise35_text">Statue of liberty?</string>
+    <string name="noise36_text">Ohhhh!</string>
+    <string name="noise37_text">Ok ok I know the place</string>
+    <string name="noise38_text">Liberty</string>
+    <string name="noise39_text">Bibiby</string>
+    <string name="noise40_text">Pain peko</string>
+    <string name="noise41_text">Hic</string>
+    <string name="noise42_text">*Dragon laugh*</string>
+    <string name="noise43_text">Wha! What is this?</string>
+    <string name="noise44_text">This is not good x3</string>
+    <string name="noise45_text">Arigathanks minny\'all I love you all</string>
+    <string name="noise46_text">We don\'t wanna hear that shit</string>
+    <string name="noise47_text">Arigatou gozaimasu</string>
+    <string name="noise48_text">Taiwan</string>
+    <string name="noise49_text">Dadadadadadada</string>
+    <string name="noise50_text">Good Morning Motherfuckers</string>
 
-    <string name="noise11_text">よろしくおねがいします</string>
-    <string name="noise12_text">I\'m Motoaki Tanigo Cover corp</string>
-    <string name="noise13_text">Hello Everyone</string>
-    <string name="noise14_text">Cover corp is Cutting Edge~</string>
-    <string name="noise15_text">look forward</string>
-    <string name="noise16_text">〜って思ってます</string>
-    <string name="noise17_text">ありえるんじゃないかな</string>
-    <string name="noise18_text">47ちゃいです。</string>
-    <string name="noise19_text">PC画面の見過ぎが原因だと思います</string>
 
-    <string name="noise20_text">ヘ ル シ ェ イ ク Y A G O O</string>
-    <string name="noise21_text">HI HONEY</string>
-    <string name="noise22_text">mother fucker</string>
+    <!-- Activity_AlarmsList -->
+    <string name="no_alarm">No alarms to show!</string>
+    <string name="addAlarm">Add</string>
+    <string name="settingsMenuItem">Settings</string>
+    <string name="toast_alarmSwitchedOn">Alarm set for %s from now.</string>
+    <plurals name="day">
+        <item quantity="one">\u0020day</item>
+        <item quantity="other">\u0020days</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="one">\u0020hour</item>
+        <item quantity="other">\u0020hours</item>
+    </plurals>
+    <plurals name="mins">
+        <item quantity="one">\u0020minute</item>
+        <item quantity="other">\u0020minutes</item>
+    </plurals>
+    <string name="and">\u0020and\u0020</string>
+    <string name="toast_alarmDeleted">The alarm at %s was deleted successfully.</string>
+    <string name="toast_alarmSwitchedOff">The alarm at %s was switched off.</string>
+
+    <!-- Activity_AlarmDetails -->
+    <string name="actionBarTitle_newAlarm">New alarm</string>
+    <string name="actionBarTitle_editAlarm">Edit alarm</string>
+    <string name="actionBarTitle_snoozeOptions">Snooze options</string>
+    <string name="actionBarTitle_repeatOptions">Repeat options</string>
+    <string name="actionBarTitle_dateOptions">Alarm date</string>
+    <string name="actionBarTitle_alarmMessage">Alarm message</string>
+
+    <!-- Fragment_AlarmDetails_Main -->
+    <string name="saveButton">SAVE</string>
+    <string name="cancelButton">Cancel</string>
+
+    <string name="repeatButton">Repeat:</string>
+    <string name="repeatNone">Off</string>
+    <string name="alarmType">Alarm type:</string>
+    <string name="alarmVolumeLabel">Alarm Volume:</string>
+    <string name="snoozeLabel">Snooze:</string>
+    <string name="snoozeOffLabel">Off</string>
+    <string name="alarmDateLabel">Alarm date:</string>
+    <string name="alarmDate">%te\u0020%tm,\u0020%tY</string>
+
+    <string-array name="alarmTypeSpinnerEntries">
+        <item>Sound</item>
+        <item>Vibrate</item>
+        <item>Sound &amp; Vibrate</item>
+    </string-array>
+
+    <string name="snoozeOptionsTV_snoozeOn">%d mins, %d times</string>
+    <string name="alarmToneLabel">Alarm tone:</string>
+
+    <string name="alarmMessageLabel">Alarm message:</string>
+    <string name="alarmMessage_default">Not set</string>
+
+    <!-- Fragment_AlarmDetails_Snooze-->
+    <string name="switchOn">On</string>
+    <string name="switchOff">Off</string>
+
+    <string name="snoozeFrequencyLabel">Snooze frequency:</string>
+    <string name="snoozeFreq_three">3 times</string>
+    <string name="snoozeFreq_five">5 times</string>
+    <string name="snoozeFreq_ten">10 times</string>
+    <string name="snoozeFreq_custom">Custom frequency:</string>
+    <string name="snoozeFreq_customHint">Enter a number</string>
+
+    <string name="snoozeIntervalLabel">Snooze interval:</string>
+    <string name="snoozeInterval_five">5 minutes</string>
+    <string name="snoozeInterval_ten">10 minutes</string>
+    <string name="snoozeInterval_fifteen">15 minutes</string>
+    <string name="snoozeInterval_custom">Custom interval (in mins):</string>
+    <string name="snoozeInterval_customHint">Enter interval</string>
+
+    <!-- AlarmAdapter -->
+    <string name="sound">Sound</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="sound_and_vibrate">Sound &amp; Vibrate</string>
+
+    <string name="time_24hour">%02d:%02d</string>
+    <string name="time_12hour">%d:%02d\u0020%s</string>
+    <string name="date">%s,\u0020%02d\u0020%s</string>
+
+    <!-- Activity_RingAlarm-->
+    <string name="alarmMessage">Alarm</string>
+    <string name="alarmTime_24hour">%02d:%02d</string>
+    <string name="snoozeAlarm">Snooze</string>
+
+    <!-- Fragment_AlarmDetails_DatePicker-->
+    <string name="pickDateLabel">Pick a date:</string>
+
+    <!-- Fragment_AlarmDetails_RepeatOptions-->
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <!-- Fragment_AlarmDetails_Message -->
+    <string name="message_label">Enter the alarm message in no more than 50 characters:</string>
+
+    <!-- Service_RingAlarm -->
+    <string name="notifContent_ring">Alarm ringing. Tap to launch alarm screen.</string>
+    <string name="notifContent_snooze">Alarm snoozed. Tap to dismiss it.</string>
+
+    <!-- Activity_RingtonePicker -->
+    <string name="chooseCustomTone">Choose from storage</string>
+    <string name="defaultTone">Default</string>
+    <string name="silentTone">Silent</string>
+    <string name="play_tone">Play tone</string>
+    <string name="ringtonePicker_defaultTitle">Select tone:</string>
+
+    <!-- AlertDialog_DiscardChanges -->
+    <string name="cancelDialogMessage">Discard changes?</string>
+    <string name="cancelDialog_positive">Yes</string>
+    <string name="cancelDialog_negative">No</string>
+
+    <!-- AlertDialog_PermissionReason -->
+    <string name="permissionReasonExp_normal">This app needs permission to read your device storage so that
+    it can read and play the alarm sound. Without this permission, the app may fail to ring the alarm. Give the permission?</string>
+
+    <string name="permissionReasonExp_ringtonePicker">This app needs permission to read your device storage
+        so that it can read the tones. Without this permission, the app will not work. Give the permission?</string>
+
+    <!-- Activity_Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="shakeOp">If I <b>shake</b> the phone when an alarm rings,</string>
+    <string name="powerBtnOp">If I press the <b>power button</b> when an alarm rings,</string>
+    <string-array name="shakeAndPowerOptions">
+        <item>Snooze the alarm.</item>
+        <item>Dismiss the alarm.</item>
+    </string-array>
+    <string name="settings_snoozeOps"><b>Default snooze options</b>\n<small>(These will be the default snooze options
+        when you create a new alarm.)</small></string>
+    <string name="settings_snoozeInterval">Snooze interval in minutes:</string>
+    <string name="settings_snoozeFreq">Snooze frequency:</string>
+
+    <string name="settings_theme">Choose the theme:</string>
+    <string-array name="themeOptions_noSystem">
+        <item>According to time</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="themeOptions_all">
+        <item>According to time</item>
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Set by system</item>
+    </string-array>
+
+    <string name="settings_toneUri">Default alarm tone:</string>
+    <string name="settings_volume">Default alarm volume:</string>
+    <string name="settings_toneCheckbox">Automatically set new tones I select as default tones for new alarms</string>
+
+    <string name="settings_shakeSensitivityMainLabel"><b>Shake sensitivity settings</b>\n<small>Test the sensitivity of the shake
+        detector, and change it as you wish</small></string>
+    <string name="shakeSensitivityChangeLabel"><small>Change sensitivity:</small></string>
+    <string name="leastSensitiveLabel">\u2191\nLeast\nsensitive</string>
+    <string name="mostSensitiveLabel">\u2191\nMost\nsensitive</string>
+    <string name="testShake"><small><b>Test shake sensitivity</b>\nTap to enable the shake detector so that you can
+        choose the sensitivity that correctly suits you.</small></string>
+
+    <!-- Service_UpdateAlarm -->
+    <string name="updateAlarm_notifMessage">Activating alarms. This may take a while…</string>
+    <string name="updateAlarm_alarmMissedTitle">Alarm missed!</string>
+    <string name="updateAlarm_alarmMissedText">The alarm at %s did not ring.</string>
+
+    <!-- AlertDialog_TestShakeSensitivity -->
+    <string name="title_shakeDetectionTest">Test sensitivity of shake detector</string>
+    <string name="message_shakeDetectionTest">Shake your phone. A vibration will tell you that a shake event has
+    been detected. Change the sensitivity as per your choice.</string>
+    <string name="negative_shakeDetectionTest">Stop</string>
+
+    <!-- AlertDialog_BatteryOptimizations -->
+    <string name="batteryOptim_message">Please disable battery optimizations for this app. If this app is 
+        optimized, it might not be able to ring the alarm.</string>
+    <string name="batteryOptim_title">Disable battery optimizations</string>
+    <string name="batteryOptim_positive">Proceed</string>
+    <string name="batteryOptim_negative">Maybe later</string>
+    <string name="batteryOptim_neutral">Never show again</string>
+
+    <string name="defaultAlarmToneText">Default alarm tone</string>
+
 </resources>
