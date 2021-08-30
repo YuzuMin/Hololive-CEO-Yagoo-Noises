@@ -12,8 +12,8 @@ height="80">](https://play.google.com/store/apps/details?id=com.yuzumin.yagoonoi
 
 # Features
 * 22 Noises
-* Alarm Clock
 * Audio Download
+* Supported Languges: Japanese, Chinese, English
 
 # License
 MIT License
