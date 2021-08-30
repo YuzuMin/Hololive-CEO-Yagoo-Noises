@@ -80,4 +80,7 @@
     <string name="noise20_text">ヘ ル シ ェ イ ク Y A G O O</string>
     <string name="noise21_text">HI HONEY</string>
     <string name="noise22_text">mother fucker</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
 </resources>
